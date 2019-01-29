@@ -103,7 +103,7 @@ Resources:
           phases:
             build:
               commands:
-                - echo 'hello world'
+                - make build
           artifacts:
             files: '**/*'
 
